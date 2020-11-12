@@ -12,8 +12,11 @@ namespace MK8_ObjFlow.xml_Reader.ObjFlow_Xml
     [System.Xml.Serialization.XmlRoot("yaml")] //ルート要素
     public class ObjFlow_Read_ROOT
     {
+        [System.Xml.Serialization.XmlAttribute("type")]
+        public string yaml_Type { get; set; }
+
         /// <summary>
-        /// Objectの値(value)
+        /// value tag
         /// </summary>
         [System.Xml.Serialization.XmlElement("value")]
         public List<Value_Array> Value_Arrays { get; set; }
@@ -171,51 +174,40 @@ namespace MK8_ObjFlow.xml_Reader.ObjFlow_Xml
         public ColSize_Val ColSize { get; set; }
 
         /// <summary>
-        /// Item Array
+        /// Item
         /// </summary>
-        [System.Xml.Serialization.XmlArray("Item")]
-        [System.Xml.Serialization.XmlArrayItem("value")]
-        //Itemsの内容をListに追加する
-        public List<Item_Array> Items { get; set; }
-
+        [System.Xml.Serialization.XmlElement("Item")]
+        public Item Items { get; set; }
 
         /// <summary>
         /// ItemObj Array
         /// </summary>
-        [System.Xml.Serialization.XmlArray("ItemObj")]
-        [System.Xml.Serialization.XmlArrayItem("value")]
-        //ItemObjsの内容をListに追加する
-        public List<ItemObj_Array> ItemObjs { get; set; }
+        [System.Xml.Serialization.XmlElement("ItemObj")]
+        public ItemObj ItemObjs { get; set; }
 
         /// <summary>
         /// Kart Array
         /// </summary>
-        [System.Xml.Serialization.XmlArray("Kart")]
-        [System.Xml.Serialization.XmlArrayItem("value")]
-        //Kartsの内容をListに追加する
-        public List<Kart_Array> Karts { get; set; }
+        [System.Xml.Serialization.XmlElement("Kart")]
+        public Kart Karts { get; set; }
 
         /// <summary>
         /// KartObj Array
         /// </summary>
-        [System.Xml.Serialization.XmlArray("KartObj")]
-        [System.Xml.Serialization.XmlArrayItem("value")]
-        //KartObjsの内容をListに追加する
-        public List<KartObj_Array> KartObjs { get; set; }
+        [System.Xml.Serialization.XmlElement("KartObj")]
+        public KartObj KartObjs { get; set; }
 
         /// <summary>
         /// Label
         /// </summary>
         [System.Xml.Serialization.XmlElement("Label")]
-        public Label_Val Label { get; set; }
+        public Label Label { get; set; }
 
         /// <summary>
         /// ResName Array
         /// </summary>
-        [System.Xml.Serialization.XmlArray("ResName")]
-        [System.Xml.Serialization.XmlArrayItem("value")]
-        //KartObjsの内容をListに追加する
-        public List<ResName_Array> ResNames { get; set; }
+        [System.Xml.Serialization.XmlElement("ResName")]
+        public ResName ResNames { get; set; }
     }
 
     /// <summary>
@@ -243,118 +235,144 @@ namespace MK8_ObjFlow.xml_Reader.ObjFlow_Xml
         public string Z_Val { get; set; }
     }
 
-    /// <summary>
-    /// Item tag
-    /// </summary>
-    [Serializable]
-    public class Item_Array
+    public class Item
     {
         /// <summary>
-        /// Item_Value_Attr
+        /// Item_Type
         /// </summary>
         [System.Xml.Serialization.XmlAttribute("type")]
         public string Item_Value_Type { get; set; }
 
         /// <summary>
-        /// Item_Value
+        /// Item -> value tag
         /// </summary>
-        [System.Xml.Serialization.XmlText]
-        public int ItemVal { get; set; }
+        [System.Xml.Serialization.XmlElement("value")]
+        public List<Item_Value_Array> Item_Value_Ary { get; set; }
+        public class Item_Value_Array
+        {
+            /// <summary>
+            /// Item_Value
+            /// </summary>
+            [System.Xml.Serialization.XmlText]
+            public int ItemVal { get; set; }
+        }
     }
 
-    /// <summary>
-    /// ItemObj tag
-    /// </summary>
-    [Serializable]
-    public class ItemObj_Array
+    public class ItemObj
     {
         /// <summary>
-        /// ItemObj_Value_Attr
+        /// ItemObj_Type
         /// </summary>
         [System.Xml.Serialization.XmlAttribute("type")]
         public string ItemObj_Value_Type { get; set; }
 
         /// <summary>
-        /// ItemObj_Value
+        /// ItemObj -> value tag
         /// </summary>
-        [System.Xml.Serialization.XmlText]
-        public int ItemObjVal { get; set; }
+        [System.Xml.Serialization.XmlElement("value")]
+        public List<ItemObj_Value_Array> ItemObj_Value_Ary { get; set; }
+        public class ItemObj_Value_Array
+        {
+            /// <summary>
+            /// ItemObj_Value
+            /// </summary>
+            [System.Xml.Serialization.XmlText]
+            public int ItemObjVal { get; set; }
+        }
     }
 
-    /// <summary>
-    /// Kart tag
-    /// </summary>
-    [Serializable]
-    public class Kart_Array
+    public class Kart
     {
         /// <summary>
-        /// Kart_Value_Attr
+        /// Kart_Type
         /// </summary>
         [System.Xml.Serialization.XmlAttribute("type")]
         public string Kart_Value_Type { get; set; }
 
         /// <summary>
-        /// Kart_Value
+        /// Kart -> value tag
         /// </summary>
-        [System.Xml.Serialization.XmlText]
-        public int KartVal { get; set; }
+        [System.Xml.Serialization.XmlElement("value")]
+        public List<Kart_Value_Array> Kart_Value_Ary { get; set; }
+        public class Kart_Value_Array
+        {
+            /// <summary>
+            /// Kart_Value
+            /// </summary>
+            [System.Xml.Serialization.XmlText]
+            public int KartVal { get; set; }
+        }
     }
 
-    /// <summary>
-    /// KartObj tag
-    /// </summary>
-    [Serializable]
-    public class KartObj_Array
+    public class KartObj
     {
         /// <summary>
-        /// KartObj_Value_Attr
+        /// KartObj_Type
         /// </summary>
         [System.Xml.Serialization.XmlAttribute("type")]
         public string KartObj_Value_Type { get; set; }
 
         /// <summary>
-        /// KartObj_Value
+        /// KartObj -> value tag
         /// </summary>
-        [System.Xml.Serialization.XmlText]
-        public int KartObjVal { get; set; }
+        [System.Xml.Serialization.XmlElement("value")]
+        public List<KartObj_Value_Array> KartObj_Value_Ary { get; set; }
+        public class KartObj_Value_Array
+        {
+            /// <summary>
+            /// KartObj_Value
+            /// </summary>
+            [System.Xml.Serialization.XmlText]
+            public int KartObjVal { get; set; }
+        }
     }
 
     /// <summary>
     /// Label tag
     /// </summary>
     [Serializable]
-    public class Label_Val
+    public class Label
     {
         /// <summary>
-        /// Label_Val_Attr
+        /// Label_Attr
         /// </summary>
         [System.Xml.Serialization.XmlAttribute("type")]
-        public string Label_Val_Type { get; set; }
+        public string Label_Type { get; set; }
 
         /// <summary>
-        /// Label_Val_String
+        /// Label_String
         /// </summary>
         [System.Xml.Serialization.XmlText]
-        public string Label_Val_String { get; set; }
+        public string Label_String { get; set; }
     }
 
-    /// <summary>
-    /// ResName tag
-    /// </summary>
-    [Serializable]
-    public class ResName_Array
+    public class ResName
     {
         /// <summary>
-        /// ResName_Value_Attr
+        /// ResName_Type
         /// </summary>
         [System.Xml.Serialization.XmlAttribute("type")]
         public string ResName_Value_Type { get; set; }
 
         /// <summary>
-        /// ResName_Value
+        /// ResName -> value tag
         /// </summary>
-        [System.Xml.Serialization.XmlText]
-        public string ResNameStr { get; set; }
+        [System.Xml.Serialization.XmlElement("value")]
+        public List<ResName_Value_Array> ResName_Value_Ary { get; set; }
+        public class ResName_Value_Array
+        {
+            /// <summary>
+            /// ResNameStr_Value_Attr
+            /// </summary>
+            [System.Xml.Serialization.XmlAttribute("type")]
+            public string ResNameStr_Value_Type { get; set; }
+
+            /// <summary>
+            /// ResName_String
+            /// </summary>
+            [System.Xml.Serialization.XmlText]
+            public string ResNameStr { get; set; }
+        }
     }
 }
 

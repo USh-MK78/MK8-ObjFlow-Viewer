@@ -585,14 +585,14 @@
             // addRowsToolStripMenuItem
             // 
             this.addRowsToolStripMenuItem.Name = "addRowsToolStripMenuItem";
-            this.addRowsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addRowsToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.addRowsToolStripMenuItem.Text = "Add Rows";
             this.addRowsToolStripMenuItem.Click += new System.EventHandler(this.addRowsToolStripMenuItem_Click);
             // 
             // deleteRowsToolStripMenuItem
             // 
             this.deleteRowsToolStripMenuItem.Name = "deleteRowsToolStripMenuItem";
-            this.deleteRowsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.deleteRowsToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.deleteRowsToolStripMenuItem.Text = "Delete Rows";
             this.deleteRowsToolStripMenuItem.Click += new System.EventHandler(this.deleteRowsToolStripMenuItem_Click);
             // 

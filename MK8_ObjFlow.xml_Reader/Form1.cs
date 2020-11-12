@@ -87,49 +87,48 @@ namespace MK8_ObjFlow.xml_Reader
                 dataGridView2.Rows.Add(BYAML_XML_UMDL.ColSize.X_Val,
                                        BYAML_XML_UMDL.ColSize.Y_Val,
                                        BYAML_XML_UMDL.ColSize.Z_Val,
-                                       BYAML_XML_UMDL.Items[0].ItemVal,
-                                       BYAML_XML_UMDL.Items[1].ItemVal,
-                                       BYAML_XML_UMDL.Items[2].ItemVal,
-                                       BYAML_XML_UMDL.Items[3].ItemVal,
-                                       BYAML_XML_UMDL.Items[4].ItemVal,
-                                       BYAML_XML_UMDL.Items[5].ItemVal,
-                                       BYAML_XML_UMDL.Items[6].ItemVal,
-                                       BYAML_XML_UMDL.Items[7].ItemVal,
-                                       BYAML_XML_UMDL.Items[8].ItemVal,
-                                       BYAML_XML_UMDL.Items[9].ItemVal,
-                                       BYAML_XML_UMDL.Items[10].ItemVal,
-                                       BYAML_XML_UMDL.Items[11].ItemVal,
-                                       BYAML_XML_UMDL.Items[12].ItemVal,
-                                       BYAML_XML_UMDL.ItemObjs[0].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[1].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[2].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[3].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[4].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[5].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[6].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[7].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[8].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[9].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[10].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[11].ItemObjVal,
-                                       BYAML_XML_UMDL.ItemObjs[12].ItemObjVal,
-                                       BYAML_XML_UMDL.Karts[0].KartVal,
-                                       BYAML_XML_UMDL.Karts[1].KartVal,
-                                       BYAML_XML_UMDL.Karts[2].KartVal,
-                                       BYAML_XML_UMDL.Karts[3].KartVal,
-                                       BYAML_XML_UMDL.KartObjs[0].KartObjVal,
-                                       BYAML_XML_UMDL.KartObjs[1].KartObjVal,
-                                       BYAML_XML_UMDL.KartObjs[2].KartObjVal,
-                                       BYAML_XML_UMDL.KartObjs[3].KartObjVal,
-                                       BYAML_XML_UMDL.Label.Label_Val_String,
-                                       BYAML_XML_UMDL.ResNames[0].ResNameStr);
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[0].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[1].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[2].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[3].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[4].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[5].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[6].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[7].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[8].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[9].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[10].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[11].ItemVal,
+                                       BYAML_XML_UMDL.Items.Item_Value_Ary[12].ItemVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[0].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[1].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[2].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[3].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[4].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[5].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[6].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[7].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[8].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[9].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[10].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[11].ItemObjVal,
+                                       BYAML_XML_UMDL.ItemObjs.ItemObj_Value_Ary[12].ItemObjVal,
+                                       BYAML_XML_UMDL.Karts.Kart_Value_Ary[0].KartVal,
+                                       BYAML_XML_UMDL.Karts.Kart_Value_Ary[1].KartVal,
+                                       BYAML_XML_UMDL.Karts.Kart_Value_Ary[2].KartVal,
+                                       BYAML_XML_UMDL.Karts.Kart_Value_Ary[3].KartVal,
+                                       BYAML_XML_UMDL.KartObjs.KartObj_Value_Ary[0].KartObjVal,
+                                       BYAML_XML_UMDL.KartObjs.KartObj_Value_Ary[1].KartObjVal,
+                                       BYAML_XML_UMDL.KartObjs.KartObj_Value_Ary[2].KartObjVal,
+                                       BYAML_XML_UMDL.KartObjs.KartObj_Value_Ary[3].KartObjVal,
+                                       BYAML_XML_UMDL.Label.Label_String,
+                                       BYAML_XML_UMDL.ResNames.ResName_Value_Ary[0].ResNameStr);
             }
             fs1.Close();
         }
 
         private void saveObjFlowxmlToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             SaveFileDialog saveFileDialog1 = new SaveFileDialog()
             {
                 Title = "Save ObjFlow.xml",
@@ -139,156 +138,203 @@ namespace MK8_ObjFlow.xml_Reader
 
             if (saveFileDialog1.ShowDialog() != DialogResult.OK) return;
 
-            int DGV1RowsCount = dataGridView1.RowCount;
-            int DGV2RowsCount = dataGridView2.RowCount;
-
-            XDocument ObjFlow_BYAML = new XDocument();
-            ObjFlow_BYAML.Declaration = new XDeclaration("1.0", "utf-8", "");
-            XElement yaml_ROOT = new XElement("yaml");
-            yaml_ROOT.Add(new XAttribute("type", "array"));
-
-            int ForCount = 0;
-            for(ForCount = 0; ForCount < DGV1RowsCount; ForCount++)
+            List<ObjFlow_Xml.Value_Array> ValueAry = new List<ObjFlow_Xml.Value_Array>();
+            for(int Count = 0; Count < dataGridView1.RowCount; Count++)
             {
-                //valueタグ
-                XElement yaml_Value = new XElement("value");
-                //AiReact(int)
-                yaml_Value.Add(new XAttribute("AiReact", int.Parse(dataGridView1.Rows[ForCount].Cells[0].Value.ToString())));
-                //CalcCut(bool)
-                DataGridViewCheckBoxCell ch1 = (DataGridViewCheckBoxCell)dataGridView1.Rows[ForCount].Cells[1];
-                yaml_Value.Add(new XAttribute("CalcCut", Convert.ToBoolean(ch1.Value)));
-                //Clip(bool)
-                DataGridViewCheckBoxCell ch2 = (DataGridViewCheckBoxCell)dataGridView1.Rows[ForCount].Cells[2];
-                yaml_Value.Add(new XAttribute("Clip", Convert.ToBoolean(ch2.Value)));
-                //ClipRadius
-                yaml_Value.Add(new XAttribute("ClipRadius", dataGridView1.Rows[ForCount].Cells[3].Value.ToString()));
-                //ColOffsetY
-                yaml_Value.Add(new XAttribute("ColOffsetY", dataGridView1.Rows[ForCount].Cells[4].Value.ToString()));
-                //ColShape(int)
-                yaml_Value.Add(new XAttribute("ColShape", int.Parse(dataGridView1.Rows[ForCount].Cells[5].Value.ToString())));
-                //DemoCameraCheck(bool)
-                DataGridViewCheckBoxCell ch3 = (DataGridViewCheckBoxCell)dataGridView1.Rows[ForCount].Cells[6];
-                yaml_Value.Add(new XAttribute("DemoCameraCheck", Convert.ToBoolean(ch3.Value)));
-                //LightSetting(int)
-                yaml_Value.Add(new XAttribute("LightSetting", int.Parse(dataGridView1.Rows[ForCount].Cells[7].Value.ToString())));
-                //Lod1
-                yaml_Value.Add(new XAttribute("Lod1", dataGridView1.Rows[ForCount].Cells[8].Value.ToString()));
-                //Lod2
-                yaml_Value.Add(new XAttribute("Lod2", dataGridView1.Rows[ForCount].Cells[9].Value.ToString()));
-                //Lod_NoDisp
-                yaml_Value.Add(new XAttribute("Lod_NoDisp", dataGridView1.Rows[ForCount].Cells[10].Value.ToString()));
-                //MgrId
-                yaml_Value.Add(new XAttribute("MgrId", int.Parse(dataGridView1.Rows[ForCount].Cells[11].Value.ToString())));
-                //ModelDraw
-                yaml_Value.Add(new XAttribute("ModelDraw", int.Parse(dataGridView1.Rows[ForCount].Cells[12].Value.ToString())));
-                //ModelEffNo
-                yaml_Value.Add(new XAttribute("ModelEffNo", int.Parse(dataGridView1.Rows[ForCount].Cells[13].Value.ToString())));
-                //MoveBeforeSync
-                DataGridViewCheckBoxCell ch4 = (DataGridViewCheckBoxCell)dataGridView1.Rows[ForCount].Cells[14];
-                yaml_Value.Add(new XAttribute("MoveBeforeSync", Convert.ToBoolean(ch4.Value)));
-                //NotCreate
-                DataGridViewCheckBoxCell ch5 = (DataGridViewCheckBoxCell)dataGridView1.Rows[ForCount].Cells[15];
-                yaml_Value.Add(new XAttribute("NotCreate", Convert.ToBoolean(ch5.Value)));
-                //ObjId
-                yaml_Value.Add(new XAttribute("ObjId", int.Parse(dataGridView1.Rows[ForCount].Cells[16].Value.ToString())));
-                //Offset
-                yaml_Value.Add(new XAttribute("Offset", dataGridView1.Rows[ForCount].Cells[17].Value.ToString()));
-                //Origin
-                yaml_Value.Add(new XAttribute("Origin", int.Parse(dataGridView1.Rows[ForCount].Cells[18].Value.ToString())));
-                //PackunEat
-                DataGridViewCheckBoxCell ch6 = (DataGridViewCheckBoxCell)dataGridView1.Rows[ForCount].Cells[19];
-                yaml_Value.Add(new XAttribute("PackunEat", Convert.ToBoolean(ch6.Value)));
-                //PathType
-                yaml_Value.Add(new XAttribute("PathType", int.Parse(dataGridView1.Rows[ForCount].Cells[20].Value.ToString())));
-                //PylonReact
-                yaml_Value.Add(new XAttribute("PylonReact", int.Parse(dataGridView1.Rows[ForCount].Cells[21].Value.ToString())));
-                //VR
-                DataGridViewCheckBoxCell ch7 = (DataGridViewCheckBoxCell)dataGridView1.Rows[ForCount].Cells[22];
-                yaml_Value.Add(new XAttribute("VR", Convert.ToBoolean(ch7.Value)));
+                #region Item
+                List<int> Item_Val_List = new List<int>();
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[3].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[4].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[5].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[6].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[7].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[8].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[9].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[10].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[11].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[12].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[13].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[14].Value.ToString()));
+                Item_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[15].Value.ToString()));
 
-                yaml_ROOT.Add(yaml_Value);
+                List<ObjFlow_Xml.Item.Item_Value_Array> Clip_Value_List = new List<ObjFlow_Xml.Item.Item_Value_Array>();
+                for (int ItemValueCount = 0; ItemValueCount < Item_Val_List.Count; ItemValueCount++)
+                {
+                    ObjFlow_Xml.Item.Item_Value_Array IVA = new ObjFlow_Xml.Item.Item_Value_Array()
+                    {
+                        ItemVal = Item_Val_List[ItemValueCount]
+                    };
 
-                //dataGridView2の内容を書き込む
-                //ColSizeタグ(yaml_Valueタグ内に追加)
-                XElement yaml_ColSize = new XElement("ColSize");
-                yaml_ColSize.Add(new XAttribute("X", dataGridView2.Rows[ForCount].Cells[0].Value.ToString()));
-                yaml_ColSize.Add(new XAttribute("Y", dataGridView2.Rows[ForCount].Cells[1].Value.ToString()));
-                yaml_ColSize.Add(new XAttribute("Z", dataGridView2.Rows[ForCount].Cells[2].Value.ToString()));
-                yaml_Value.Add(yaml_ColSize);
+                    Clip_Value_List.Add(IVA);
+                }
+                #endregion
 
-                //Itemタグ(yaml_Valueタグ内に追加)
-                XElement yaml_Item = new XElement("Item");
-                yaml_Item.Add(new XAttribute("type", "array"));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[3].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[4].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[5].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[6].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[7].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[8].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[9].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[10].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[11].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[12].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[13].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[14].Value.ToString()));
-                yaml_Item.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[15].Value.ToString()));
-                yaml_Value.Add(yaml_Item);
+                #region ItemObj
+                List<int> ItemObj_Val_List = new List<int>();
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[16].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[17].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[18].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[19].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[20].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[21].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[22].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[23].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[24].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[25].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[26].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[27].Value.ToString()));
+                ItemObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[28].Value.ToString()));
 
-                //ItemObjタグ(yaml_Valueタグ内に追加)
-                XElement yaml_ItemObj = new XElement("ItemObj");
-                yaml_ItemObj.Add(new XAttribute("type", "array"));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[16].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[17].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[18].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[19].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[20].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[21].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[22].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[23].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[24].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[25].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[26].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[27].Value.ToString()));
-                yaml_ItemObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[28].Value.ToString()));
-                yaml_Value.Add(yaml_ItemObj);
+                List<ObjFlow_Xml.ItemObj.ItemObj_Value_Array> ItemObj_Value_List = new List<ObjFlow_Xml.ItemObj.ItemObj_Value_Array>();
+                for (int ItemObjValueCount = 0; ItemObjValueCount < ItemObj_Val_List.Count; ItemObjValueCount++)
+                {
+                    ObjFlow_Xml.ItemObj.ItemObj_Value_Array ItemObjValAry = new ObjFlow_Xml.ItemObj.ItemObj_Value_Array()
+                    {
+                        ItemObjVal = ItemObj_Val_List[ItemObjValueCount]
+                    };
 
-                //Kartタグ(yaml_Valueタグ内に追加)
-                XElement yaml_Kart = new XElement("Kart");
-                yaml_Kart.Add(new XAttribute("type", "array"));
-                yaml_Kart.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[29].Value.ToString()));
-                yaml_Kart.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[30].Value.ToString()));
-                yaml_Kart.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[31].Value.ToString()));
-                yaml_Kart.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[32].Value.ToString()));
-                yaml_Value.Add(yaml_Kart);
+                    ItemObj_Value_List.Add(ItemObjValAry);
+                }
+                #endregion
 
-                //KartObjタグ(yaml_Valueタグ内に追加)
-                XElement yaml_KartObj = new XElement("KartObj");
-                yaml_KartObj.Add(new XAttribute("type", "array"));
-                yaml_KartObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[33].Value.ToString()));
-                yaml_KartObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[34].Value.ToString()));
-                yaml_KartObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[35].Value.ToString()));
-                yaml_KartObj.Add(new XElement("value", dataGridView2.Rows[ForCount].Cells[36].Value.ToString()));
-                yaml_Value.Add(yaml_KartObj);
+                #region Kart
+                List<int> Kart_Val_List = new List<int>();
+                Kart_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[29].Value.ToString()));
+                Kart_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[30].Value.ToString()));
+                Kart_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[31].Value.ToString()));
+                Kart_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[32].Value.ToString()));
 
-                XElement yaml_Label = new XElement("Label");
-                yaml_Label.Add(new XAttribute("type", "string"));
-                yaml_Label.Add(new XText(dataGridView2.Rows[ForCount].Cells[37].Value.ToString()));
-                yaml_Value.Add(yaml_Label);
+                List<ObjFlow_Xml.Kart.Kart_Value_Array> Kart_Value_List = new List<ObjFlow_Xml.Kart.Kart_Value_Array>();
+                for (int KartValueCount = 0; KartValueCount < Kart_Val_List.Count; KartValueCount++)
+                {
+                    ObjFlow_Xml.Kart.Kart_Value_Array KartValAry = new ObjFlow_Xml.Kart.Kart_Value_Array
+                    {
+                        KartVal = Kart_Val_List[KartValueCount]
+                    };
 
-                //ResNameタグ(yaml_Valueタグ内に追加)
-                XElement yaml_ResName = new XElement("ResName");
-                yaml_ResName.Add(new XAttribute("type", "array"));
-                //valueタグを追加
-                XElement yaml_ResName_Value = new XElement("value", dataGridView2.Rows[ForCount].Cells[38].Value.ToString());
-                yaml_ResName_Value.Add(new XAttribute("type", "string"));
-                yaml_ResName.Add(yaml_ResName_Value);
+                    Kart_Value_List.Add(KartValAry);
+                }
+                #endregion
 
-                //KartObjタグ(yaml_Valueタグ内に追加)
-                yaml_Value.Add(yaml_ResName);
+                #region KartObj
+                List<int> KartObj_Val_List = new List<int>();
+                KartObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[33].Value.ToString()));
+                KartObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[34].Value.ToString()));
+                KartObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[35].Value.ToString()));
+                KartObj_Val_List.Add(int.Parse(dataGridView2.Rows[Count].Cells[36].Value.ToString()));
+
+                List<ObjFlow_Xml.KartObj.KartObj_Value_Array> KartObj_Value_List = new List<ObjFlow_Xml.KartObj.KartObj_Value_Array>();
+                for (int KartObjValueCount = 0; KartObjValueCount < KartObj_Val_List.Count; KartObjValueCount++)
+                {
+                    ObjFlow_Xml.KartObj.KartObj_Value_Array KartObjValAry = new ObjFlow_Xml.KartObj.KartObj_Value_Array
+                    {
+                        KartObjVal = KartObj_Val_List[KartObjValueCount]
+                    };
+
+                    KartObj_Value_List.Add(KartObjValAry);
+                }
+                #endregion
+
+                #region ResName
+                List<string> ResName_Val_List = new List<string>();
+                ResName_Val_List.Add(dataGridView2.Rows[Count].Cells[38].Value.ToString());
+
+                List<ObjFlow_Xml.ResName.ResName_Value_Array> ResName_Value_List = new List<ObjFlow_Xml.ResName.ResName_Value_Array>();
+                for (int ResNameValueCount = 0; ResNameValueCount < ResName_Val_List.Count; ResNameValueCount++)
+                {
+                    ObjFlow_Xml.ResName.ResName_Value_Array ResNameValAry = new ObjFlow_Xml.ResName.ResName_Value_Array
+                    {
+                        ResNameStr_Value_Type = "string",
+                        ResNameStr = ResName_Val_List[ResNameValueCount]
+                    };
+
+                    ResName_Value_List.Add(ResNameValAry);
+                }
+                #endregion
+
+                #region ObjFlow_ROOT
+                ObjFlow_Xml.Value_Array value_Array = new ObjFlow_Xml.Value_Array
+                {
+                    AiReact = int.Parse(dataGridView1.Rows[Count].Cells[0].Value.ToString()),
+                    CalcCut = Convert.ToBoolean(((DataGridViewCheckBoxCell)dataGridView1.Rows[Count].Cells[1]).Value),
+                    Clip = Convert.ToBoolean(((DataGridViewCheckBoxCell)dataGridView1.Rows[Count].Cells[2]).Value),
+                    ClipRadius = dataGridView1.Rows[Count].Cells[3].Value.ToString(),
+                    ColOffsetY = dataGridView1.Rows[Count].Cells[4].Value.ToString(),
+                    ColShape = int.Parse(dataGridView1.Rows[Count].Cells[5].Value.ToString()),
+                    DemoCameraCheck = Convert.ToBoolean(((DataGridViewCheckBoxCell)dataGridView1.Rows[Count].Cells[6]).Value),
+
+                    LightSetting = int.Parse(dataGridView1.Rows[Count].Cells[7].Value.ToString()),
+                    Lod1 = dataGridView1.Rows[Count].Cells[8].Value.ToString(),
+                    Lod2 = dataGridView1.Rows[Count].Cells[9].Value.ToString(),
+                    Lod_NoDisp = dataGridView1.Rows[Count].Cells[10].Value.ToString(),
+                    MgrId = int.Parse(dataGridView1.Rows[Count].Cells[11].Value.ToString()),
+                    ModelDraw = int.Parse(dataGridView1.Rows[Count].Cells[12].Value.ToString()),
+                    ModelEffNo = int.Parse(dataGridView1.Rows[Count].Cells[13].Value.ToString()),
+                    MoveBeforeSync = Convert.ToBoolean(((DataGridViewCheckBoxCell)dataGridView1.Rows[Count].Cells[14]).Value),
+                    NotCreate = Convert.ToBoolean(((DataGridViewCheckBoxCell)dataGridView1.Rows[Count].Cells[15]).Value),
+                    ObjId = int.Parse(dataGridView1.Rows[Count].Cells[16].Value.ToString()),
+                    Offset = dataGridView1.Rows[Count].Cells[17].Value.ToString(),
+                    Origin = int.Parse(dataGridView1.Rows[Count].Cells[18].Value.ToString()),
+                    PackunEat = Convert.ToBoolean(((DataGridViewCheckBoxCell)dataGridView1.Rows[Count].Cells[19]).Value),
+                    PathType = int.Parse(dataGridView1.Rows[Count].Cells[20].Value.ToString()),
+                    PylonReact = int.Parse(dataGridView1.Rows[Count].Cells[21].Value.ToString()),
+                    VR = Convert.ToBoolean(((DataGridViewCheckBoxCell)dataGridView1.Rows[Count].Cells[22]).Value),
+                    ColSize = new ObjFlow_Xml.ColSize_Val
+                    {
+                        X_Val = dataGridView2.Rows[Count].Cells[0].Value.ToString(),
+                        Y_Val = dataGridView2.Rows[Count].Cells[1].Value.ToString(),
+                        Z_Val = dataGridView2.Rows[Count].Cells[2].Value.ToString()
+                    },
+                    Items = new ObjFlow_Xml.Item
+                    {
+                        Item_Value_Type = "array",
+                        Item_Value_Ary = Clip_Value_List
+                    },
+                    ItemObjs = new ObjFlow_Xml.ItemObj
+                    {
+                        ItemObj_Value_Type = "array",
+                        ItemObj_Value_Ary = ItemObj_Value_List
+                    },
+                    Karts = new ObjFlow_Xml.Kart
+                    {
+                        Kart_Value_Type = "array",
+                        Kart_Value_Ary = Kart_Value_List
+                    },
+                    KartObjs = new ObjFlow_Xml.KartObj
+                    {
+                        KartObj_Value_Type = "array",
+                        KartObj_Value_Ary = KartObj_Value_List
+                    },
+                    Label = new ObjFlow_Xml.Label
+                    {
+                        Label_Type = "string",
+                        Label_String = dataGridView2.Rows[Count].Cells[37].Value.ToString()
+                    },
+                    ResNames = new ObjFlow_Xml.ResName
+                    {
+                        ResName_Value_Type = "string",
+                        ResName_Value_Ary = ResName_Value_List
+                    }
+                };
+                #endregion
+
+                ValueAry.Add(value_Array);
             }
 
-            ObjFlow_BYAML.Add(yaml_ROOT);
-            ObjFlow_BYAML.Save(saveFileDialog1.FileName);
+            ObjFlow_Xml.ObjFlow_Read_ROOT YAMLROOT = new ObjFlow_Xml.ObjFlow_Read_ROOT
+            {
+                yaml_Type = "array",
+                Value_Arrays = ValueAry
+            };
+
+            //Delete Namespaces
+            var xns = new XmlSerializerNamespaces();
+            xns.Add(string.Empty, string.Empty);
+
+            System.Xml.Serialization.XmlSerializer serializer = new XmlSerializer(typeof(ObjFlow_Xml.ObjFlow_Read_ROOT));
+            System.IO.StreamWriter sw = new StreamWriter(saveFileDialog1.FileName, false, new System.Text.UTF8Encoding(false));
+            serializer.Serialize(sw, YAMLROOT, xns);
+            sw.Close();
         }
 
         private void addRowsToolStripMenuItem_Click(object sender, EventArgs e)
